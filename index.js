@@ -4,6 +4,6 @@ exports.handler = (event, context, callback) => {
     currentTime.setTimezone("Asia/Shanghai");
     callback(null, {
         statusCode: '200',
-        body: 'The time in China Beijing is: ' + currentTime.toString(),
+        body: 'The time in Beijing is: ' + currentTime.toString(),
     });
 };
